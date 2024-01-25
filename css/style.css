@@ -469,6 +469,7 @@ h1 {
   color: var(--color-one);
   padding: 0;
   font-size: 30px;
+  padding-right: 10px;
 }
 @media (max-width: 991px) {
   .landing .container .hey .talk p {
@@ -477,13 +478,13 @@ h1 {
   }
 }
 .landing .container .hey .talk a {
-  background-color: #43454d;
+  /* background-color: #43454d;
   margin-left: 10px;
   width: 50px;
   height: 50px;
-  border-radius: 50%;
+  border-radius: 50%; */
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 @media (max-width: 991px) {
@@ -495,6 +496,13 @@ h1 {
 .landing .container .hey .talk i {
   font-size: 30px;
   color: var(--color-one);
+  background-color: #43454d;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media (max-width: 991px) {
   .landing .container .hey .talk i {
@@ -781,7 +789,7 @@ h1 {
   padding: 0 10px;
   font-size: 30px;
 }
-@media (max-width:991px) {
+@media (max-width: 991px) {
   .contact .container .sec-title h3 {
     font-size: 25px;
     letter-spacing: 0;
@@ -792,8 +800,8 @@ h1 {
   grid-template-areas:
     "nm nm em em"
     "me me me me";
-    gap: 50px;
-    padding-top: 50px;
+  gap: 50px;
+  padding-top: 50px;
 }
 .contact .container form .box:first-child {
   grid-area: nm;
@@ -827,7 +835,7 @@ h1 {
 .contact .container form .submit-icon .icon {
   color: var(--color-two);
 }
-.contact .container form label{
+.contact .container form label {
   color: var(--color-one);
   font-family: second-font;
   text-transform: capitalize;
@@ -845,7 +853,7 @@ h1 {
   font-family: second-font;
   transition-duration: var(--main-transition);
 }
-.contact .container form input:focus::placeholder{
+.contact .container form input:focus::placeholder {
   opacity: 0;
 }
 .contact .container form input:focus {
@@ -858,7 +866,7 @@ h1 {
 .footer {
   padding: 20px;
 }
-.footer .container{
+.footer .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -866,7 +874,7 @@ h1 {
   padding-top: 15px;
   max-width: 100%;
 }
-@media (max-width:991px) {
+@media (max-width: 991px) {
   .footer .container {
     flex-direction: column;
     flex-wrap: wrap;
@@ -883,12 +891,12 @@ h1 {
   font-size: 15px;
   margin-left: 15px;
 }
-@media (max-width:991px) {
+@media (max-width: 991px) {
   .footer .container ul.text {
     order: 2;
   }
 }
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .footer .container ul.text {
     flex-wrap: wrap;
     flex-direction: column;
@@ -910,7 +918,7 @@ h1 {
   align-items: center;
   color: var(--color-two);
 }
-@media (max-width:991px) {
+@media (max-width: 991px) {
   .footer .container ul.media {
     order: 1;
   }
@@ -920,7 +928,7 @@ h1 {
   font-family: second-font;
   text-transform: capitalize;
 }
-@media (max-width:991px) {
+@media (max-width: 991px) {
   .footer .container p {
     order: 3;
   }
@@ -945,11 +953,11 @@ h1 {
   font-weight: bold;
   color: var(--color-one);
   animation-name: omar;
-  animation-duration: 3s;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
-  animation-delay: .2s;
+  animation-delay: 0.2s;
 }
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .its {
     font-size: 30px;
   }
