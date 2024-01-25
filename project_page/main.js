@@ -20,6 +20,7 @@ fetch("https://api.github.com/users/omaradel376/repos")
       a.href =
         "https://" + api[i].owner.login + ".github.io/" + api[i].name + "/";
       a.textContent = "click to view";
+      a.target = "_blank"
       h3.after(a);
       containerOfBox.appendChild(box);
     }
